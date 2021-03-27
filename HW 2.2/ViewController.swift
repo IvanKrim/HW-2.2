@@ -51,17 +51,21 @@ class ViewController: UIViewController {
         blueColourLabel.text = "Blue:"
         blueColourLabel.font = blueColourLabel.font.withSize(17)
         
+    
+        
+        displayedColorView.layer.cornerRadius = displayedColorView.frame.height * 0.1
+        
         addRedSliderParametrs()
         addGreenSliderParametrs()
         addBlueSliderParametrs()
-       
         
         
         
         
-       
+        
+        
     }
-    // MARK: - IB Action
+    // MARK: - IB Actions
     @IBAction func redSliderAction() {
         redSliderValueLabel.text = String(format: "%.0f", redSlider.value * 255) //round
         changeColor()
@@ -100,7 +104,7 @@ class ViewController: UIViewController {
         greenSliderValueLabel.text = String(greenSlider.value)
     }
     
-     private func addBlueSliderParametrs(){
+    private func addBlueSliderParametrs(){
         blueSlider.value = 0.3
         blueSlider.minimumValue = 0
         blueSlider.maximumValue = 1
@@ -119,9 +123,8 @@ class ViewController: UIViewController {
         let backgroundColor = UIColor.init(red: redColour, green: greenColor, blue: blueColor, alpha: 1)
         
         displayedColorView.backgroundColor = backgroundColor
-
     }
-
+    
     
 }
 
