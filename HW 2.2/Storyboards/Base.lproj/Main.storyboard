@@ -19,7 +19,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="sEf-ef-qIi">
-                        <barButtonItem key="rightBarButtonItem" title="Item" image="square.and.pencil" catalog="system" style="plain" id="Lpb-uD-R7N">
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="square.and.pencil" catalog="system" id="Lpb-uD-R7N">
                             <connections>
                                 <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="5cE-wg-jFX"/>
                             </connections>
