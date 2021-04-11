@@ -59,9 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				0E3B9005262262C60033916E /* View */,
-				0E1DEB9A260DEFB300BF14A2 /* Assets.xcassets */,
 				0E3B9006262262FA0033916E /* Storyboards */,
 				0E3B9007262263130033916E /* Support */,
+				0E1DEB9A260DEFB300BF14A2 /* Assets.xcassets */,
 			);
 			path = "HW 2.2";
 			sourceTree = "<group>";
